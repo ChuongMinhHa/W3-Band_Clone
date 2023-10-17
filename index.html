@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone W3 Band</title>
+    <link rel="icon" href="https://fullstack.edu.vn/static/media/f8-icon.18cd71cfcfa33566a22b.png"
+        type="image/x-icon" />
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="navbar">
+                    <ul class="header__navbar">
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-link">Home</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#band" class="header__navbar-link">Band</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#tour" class="header__navbar-link">Tour</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#contact" class="header__navbar-link">Contact</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-link">
+                                More
+                                <i class="header__navbar-item--icon fa-solid fa-sort-down"></i>
+                                <ul class="header__navbar-list">
+                                    <li class="header__navbar-list--item">
+                                        <a href="#" class="header__navbar-list--link">Merchandise</a>
+                                    </li>
+                                    <li class="header__navbar-list--item">
+                                        <a href="#" class="header__navbar-list--link">Extras</a>
+                                    </li>
+                                    <li class="header__navbar-list--item">
+                                        <a href="#" class="header__navbar-list--link">Media</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Reponsive -->
+                    <label for="nav-mobile-input" class="nav__bars-btn">
+                        <i class="nav__bars-btn--icon fa-solid fa-bars"></i>
+                    </label>
+
+                    <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+
+                    <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                    <ul class="header__navbar-mobile">
+                        <label for="nav-mobile-input" class="nav__mobile-close">
+                            <i class="nav__mobile-close--icon fa-solid fa-xmark"></i>
+                        </label>
+                        <li class="header__navbar-mobile--item">
+                            <a href="#" class="header__navbar-item--link">Home</a>
+                        </li>
+                        <li class="header__navbar-mobile--item">
+                            <a href="#band" class="header__navbar-item--link">Band</a>
+                        </li>
+                        <li class="header__navbar-mobile--item">
+                            <a href="#tour" class="header__navbar-item--link">Tour</a>
+                        </li>
+                        <li class="header__navbar-mobile--item">
+                            <a href="#contact" class="header__navbar-item--link">Contact</a>
+                        </li>
+                        <li class="header__navbar-mobile--item">
+                            <a href="#" class="header__navbar-item--link">More</a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-search">
+                        <i class="header__navbar-search--icon fa-solid fa-magnifying-glass"></i>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="slider">
+            <img src="./asset/img/slider/chicago.jpg" alt="" class="slider__img">
+            <div class="slider__subnav">
+                <h3 class="slider__subnav-heading">Chicago</h3>
+                <p class="slider__subnav-content">Thank you, Chicago - A night we won't forget.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <!-- Introduce -->
+                        <div id="band" class="container__intro">
+                            <h2 class="container__intro-heading">THE BAND</h2>
+                            <p class="container__intro-sub-heading">We love music</p>
+                            <p class="container__intro-des">We have created a fictional band website. Lorem ipsum dolor
+                                sit
+                                amet,
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu
+                                fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt
+                                mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris
+                                nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                            <div class="container__list">
+                                <div class="container__list-item">
+                                    <p class="container__list-item--name">Name</p>
+                                    <img src="./asset/img/container/bandmember.jpg" alt=""
+                                        class="container__list-item--img">
+                                </div>
+                                <div class="container__list-item">
+                                    <p class="container__list-item--name">Name</p>
+                                    <img src="./asset/img/container/bandmember.jpg" alt=""
+                                        class="container__list-item--img">
+                                </div>
+                                <div class="container__list-item">
+                                    <p class="container__list-item--name">Name</p>
+                                    <img src="./asset/img/container/bandmember.jpg" alt=""
+                                        class="container__list-item--img">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tour -->
+                        <div id="tour" class="container__ticket">
+                            <div class="container__intro">
+                                <h2 class="container__intro-heading container__intro-white">TOUR DATES</h2>
+                                <p class="container__intro-sub-heading container__intro-white">Remember to book your
+                                    tickets!</p>
+                                <ul class="container__ticket-list">
+                                    <li class="container__ticket-item">
+                                        September
+                                        <span class="container__ticket-sold-out">Sold out</span>
+                                    </li>
+                                    <li class="container__ticket-item">
+                                        October
+                                        <span class="container__ticket-sold-out">Sold out</span>
+                                    </li>
+                                    <li class="container__ticket-item">
+                                        November
+                                        <span class="container__ticket-quantity">3</span>
+                                    </li>
+                                </ul>
+                                <div class="container__location">
+                                    <div class="container__location-item">
+                                        <img src="./asset/img/location/newyork.jpg" alt=""
+                                            class="container__location-img">
+                                        <div class="container__location-list">
+                                            <h4 class="container__location-name">New York</h4>
+                                            <p class="container__location-time">Fri 27 Nov 2016</p>
+                                            <p class="container__location-des">Praesent tincidunt sed tellus ut rutrum
+                                                sed
+                                                vitae
+                                                justo.</p>
+                                            <a href="" class="container__location-price">Buy tickets</a>
+                                        </div>
+                                    </div>
+                                    <div class="container__location-item">
+                                        <img src="./asset/img/location/newyork.jpg" alt=""
+                                            class="container__location-img">
+                                        <div class="container__location-list">
+                                            <h4 class="container__location-name">New York</h4>
+                                            <p class="container__location-time">Fri 27 Nov 2016</p>
+                                            <p class="container__location-des">Praesent tincidunt sed tellus ut rutrum
+                                                sed
+                                                vitae
+                                                justo.</p>
+                                            <a href="" class="container__location-price">Buy tickets</a>
+                                        </div>
+                                    </div>
+                                    <div class="container__location-item">
+                                        <img src="./asset/img/location/newyork.jpg" alt=""
+                                            class="container__location-img">
+                                        <div class="container__location-list">
+                                            <h4 class="container__location-name">New York</h4>
+                                            <p class="container__location-time">Fri 27 Nov 2016</p>
+                                            <p class="container__location-des">Praesent tincidunt sed tellus ut rutrum
+                                                sed
+                                                vitae
+                                                justo.</p>
+                                            <a href="" class="container__location-price">Buy tickets</a>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact -->
+                        <div id="contact" class="container__intro">
+                            <h2 class="container__intro-heading">CONTACT</h2>
+                            <p class="container__intro-sub-heading">Fan? Drop a note!</p>
+
+                            <div class="container__info">
+                                <div class="container__info-list">
+                                    <p class="container__info-contact">
+                                        <i class="container__info-icon fa-solid fa-location-dot"></i>
+                                        Chicago,US
+                                    </p>
+                                    <p class="container__info-contact">
+                                        <i class="container__info-icon fa-solid fa-phone"></i>
+                                        Phone: +00 151515
+                                    </p>
+                                    <p class="container__info-contact">
+                                        <i class="container__info-icon fa-solid fa-envelope"></i>
+                                        Email: mail@mail.com
+                                    </p>
+                                </div>
+
+                                <div class="container__info-list">
+                                    <form action="">
+                                        <div class="container__info-form">
+                                            <div class="container__info-item">
+                                                <input type="text" name="Name" placeholder="Name" id=""
+                                                    class="container__info-input">
+                                            </div>
+                                            <div class="container__info-item">
+                                                <input type="text" name="Email" placeholder="Email" id=""
+                                                    class="container__info-input">
+                                            </div>
+                                        </div>
+                                        <input type="text" name="Message" placeholder="Message" id=""
+                                            class="container__info-input">
+                                    </form>
+                                    <input type="button" value="SEND" class="container__info-button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <img src="./asset/img/footer/map.jpg" alt="Bản đồ" class="footer__img">
+
+            <div class="footer__social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-github"></i>
+                <p class="footer__social-name">Powered by <a class="footer__social-link" href="">w3.css</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

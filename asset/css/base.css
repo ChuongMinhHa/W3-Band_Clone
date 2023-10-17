@@ -1,0 +1,39 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --height: 46px;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* REPONSIVE */
+    /* PC */
+@media(min-width: 64em) {
+
+}
+
+/* TABLET */                                                                                                                                                                                                                                                                                    
+@media(min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* MOBILE */
+@media(max-width: 46.1875em) {
+    /* .nav__bars-btn {
+        display: block;
+    }
+
+    .header__navbar {
+        display: none;
+    } */
+}
